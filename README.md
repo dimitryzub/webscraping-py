@@ -1,5 +1,6 @@
+Web Scraping projects, examples, techniques. 
 
-Web Scraping using: 
+Tools: 
 * `BeautifulSoup`
 * `Requests`
 * `Requests-html`
@@ -14,4 +15,4 @@ Get more practice with:
 - [ ] Regex 
 - [ ] Scrapy
 
-[Stackoverflow](https://stackoverflow.com/users/15164646/dimitry-zub?tab=profile)
+[Stackoverflow](https://stackoverflow.com/users/15164646/dimitry-zub?tab=profile) profile.
