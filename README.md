@@ -15,6 +15,4 @@ Get more practice with:
 - [ ] Regex 
 - [ ] Scrapy
 ___
-[Stackoverflow](https://stackoverflow.com/users/15164646/dimitry-zub?tab=profile)
-
-[Replit](https://replit.com/@DimitryZub1)
+[Stackoverflow](https://stackoverflow.com/users/15164646/dimitry-zub?tab=profile) [Replit](https://replit.com/@DimitryZub1)
