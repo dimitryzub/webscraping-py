@@ -15,6 +15,6 @@ Get more practice with:
 - [ ] Regex 
 - [ ] Scrapy
 
-[Stackoverflow](https://stackoverflow.com/users/15164646/dimitry-zub?tab=profile) profile.
+[Stackoverflow](https://stackoverflow.com/users/15164646/dimitry-zub?tab=profile)
 
-[Replit](https://replit.com/@DimitryZub1) profile.
+[Replit](https://replit.com/@DimitryZub1)
