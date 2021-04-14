@@ -1,4 +1,4 @@
-Web Scraping projects, examples, techniques. 
+Web Scraping projects, examples. 
 
 Tools: 
 * `BeautifulSoup`
