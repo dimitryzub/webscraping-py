@@ -10,6 +10,7 @@ Tools:
 * `Pandas` (for scraping tables)
 * `Regex`
 * `Scrapy`
+* `HTTPX`
 ___
 [Stackoverflow](https://stackoverflow.com/users/15164646/dimitry-zub?tab=profile) 
 
