@@ -10,10 +10,6 @@ Tools:
 * `Pandas` (for scraping tables)
 * `Regex`
 * `Scrapy`
-
-Get more practice with:
-- [ ] Regex 
-- [ ] Scrapy
 ___
 [Stackoverflow](https://stackoverflow.com/users/15164646/dimitry-zub?tab=profile) 
 
