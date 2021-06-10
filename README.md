@@ -7,7 +7,7 @@ Tools:
 * `Selenium`
 * `Grequests`
 * `Asyncio`
-* `Pandas` (for scraping tables)
+* `Pandas`
 * `Regex`
 * `Scrapy`
 * `HTTPX`
