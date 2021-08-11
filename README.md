@@ -1,5 +1,7 @@
 Web Scraping projects, examples. 
 
+Note: this repository is no longer active and to view the most recent work, you can view my repls on replit.com (see link below) 
+
 Tools: 
 * `BeautifulSoup`
 * `Requests`
