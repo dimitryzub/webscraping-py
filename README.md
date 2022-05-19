@@ -6,7 +6,7 @@
 
 This repository is currently not active. I'll start updating scripts in this repository shortly. 
 
-To view recent scripts, visit my replit, or [StackOverflow answers](https://github.com/dimitryzub/stackoverflow-answers-archive), [blog posts archive](https://github.com/dimitryzub/serpapi-blog-posts-archive) repositories.
+To view recent scripts, visit my [replit](https://replit.com/@DimitryZub1), or [StackOverflow answers](https://github.com/dimitryzub/stackoverflow-answers-archive), [blog posts archive](https://github.com/dimitryzub/serpapi-blog-posts-archive) repositories.
 
 ### Tools
 
