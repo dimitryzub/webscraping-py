@@ -1,0 +1,16 @@
+tasks:
+  - name: Install Dependencies
+    init: |
+      pip install poetry
+      poetry install
+      sudo apt-get install -y libnss3 libnspr4 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libatspi2.0-0
+    command: poetry shell
+
+vscode:
+  extensions:
+    - usernamehw.errorlens
+    - vscode-icons-team.vscode-icons
+    - bierner.markdown-preview-github-styles
+    - ms-python.python
+    - KevinRose.vsc-python-inden
+    - WakaTime.vscode-wakatime
