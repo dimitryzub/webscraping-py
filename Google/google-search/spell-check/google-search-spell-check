@@ -1,0 +1,40 @@
+from bs4 import BeautifulSoup
+import requests, lxml, os
+from serpapi import GoogleSearch
+
+headers = {
+    'User-agent':
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19582"
+}
+
+params = {
+  'q': 'fush ro dah',
+  'hl': 'en',
+  'gl': 'us',
+}
+
+html = requests.get('https://www.google.com/search?q=', headers=headers, params=params).text
+soup = BeautifulSoup(html, 'lxml')
+
+corrected_word = soup.select_one('a.gL9Hy').text
+corrected_word_link = f"https://www.google.com{soup.select_one('a.gL9Hy')['href']}"
+search_instead_for = soup.select_one('a.spell_orig').text
+search_instead_for_link = f"https://www.google.com{soup.select_one('a.spell_orig')['href']}"
+print(f'{corrected_word}\n{corrected_word_link}\nSearch instead: {search_instead_for}\n{search_instead_for_link}')
+
+
+# serpapi solution
+
+params = {
+  "api_key": os.getenv("API_KEY"),
+  "engine": "google",
+  "q": "fus ro dish",
+  "gl": "us",
+  "hl": "en"
+}
+
+search = GoogleSearch(params)
+results = search.get_dict()
+
+print(results['search_information']['organic_results_state'])
+print(results['search_information']['spelling_fix'])
